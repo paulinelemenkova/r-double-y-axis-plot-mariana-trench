@@ -1,3 +1,13 @@
+# ============================================================================
+# Double-Y-axis correlation plots of Mariana Trench factors (R, latticeExtra).
+# This produced Figure 13 in the peer-reviewed article:
+#   Lemenkova, P. (2019). Statistical Analysis of the Mariana Trench
+#   Geomorphology Using R Programming Language.
+#   Geodesy and Cartography, 45(2), 57-84.
+#   DOI: https://doi.org/10.3846/gac.2019.3785
+# Author: Polina Lemenkova | ORCID: 0000-0002-5759-1089
+# ============================================================================
+
 # ЧАСТЬ-1. готовим датафрейм. 
 	# шаг-1. вчитываем таблицу с данными по геоморфологии. делаем из нее исходный датафрейм
 MDepths <- read.csv("Morphology.csv", header=TRUE, sep = ",")
